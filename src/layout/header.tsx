@@ -33,9 +33,15 @@ export const Header = () => {
         <Spacer />
         <VStack spacing={5}>
           <HStack spacing='5'>
-            <EmailIcon w={8} h={8} />
-            <Icon w={8} h={8} as={AiOutlineInstagram} />
-            <Icon w={8} h={8} as={AiOutlineTwitter} />
+            <MyLink href='/'>
+              <EmailIcon w={8} h={8} />
+            </MyLink>
+            <MyLink href='https://twitter.com/oNqNu'>
+              <Icon w={8} h={8} as={AiOutlineInstagram} />
+            </MyLink>
+            <MyLink href='https://twitter.com/oNqNu'>
+              <Icon w={8} h={8} as={AiOutlineTwitter} />
+            </MyLink>
           </HStack>
           <HStack mt='10'>
             <Button variant='ghost' colorScheme='blackAlpha' fontSize={24}>
