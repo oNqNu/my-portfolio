@@ -27,6 +27,7 @@ export const Header = () => {
           fontWeight='bold'
           fontSize='40'
           _hover={{ textDecoration: 'none' }}
+          fontFamily='Century Gothic'
         >
           Yuma Yamasaki
         </MyLink>
