@@ -48,13 +48,13 @@ export default function Home() {
             </Center>
           </Box>
         </Flex>
-        <Box h='6xl' bg='white' pt='70'>
+        <Box h='2xl' bg='white' pt='70'>
           <Text mx='100' fontSize='4xl' fontWeight='extrabold'>
             Skills
           </Text>
           <Center>
             <Text mx='100' mt='30px' fontSize='xl' fontFamily='Century'>
-              大学院で機械学習を用いた画像処理・分類の研究，また受託でWebアプリケーションの開発を行っています．
+              大学院で機械学習を用いた画像処理・分類の研究，また受託でWeb制作を行っています．
             </Text>
           </Center>
           <Center mt='50'>
@@ -113,6 +113,11 @@ export default function Home() {
               </Box>
             </HStack>
           </Center>
+        </Box>
+        <Box h='6xl' bg='gray.200' pt='70'>
+          <Text mx='100' fontSize='4xl' fontWeight='extrabold'>
+            Works
+          </Text>
         </Box>
       </chakra.main>
     </>
