@@ -19,7 +19,7 @@ export default function Home() {
       <Header />
       <chakra.main fontFamily='Century Gothic'>
         <Flex>
-          <Box w='full' bg='gray.100'>
+          <Box w='full' bg='gray.300'>
             <Box ml='100'>
               <Text mt='70' fontSize='4xl' fontWeight='extrabold'>
                 About
